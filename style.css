@@ -179,8 +179,12 @@ body{
         padding-top: 10px;
         padding-left: 48px;
         padding-bottom: 10px;
-        
+    
     }
+    .body{
+        padding-top: 150px;
+    }
+    
     
 }
 .flex_row {
@@ -342,14 +346,14 @@ line-height: 35px;
         position: relative;
         cursor: pointer;
         padding-left: 0px;
-        max-width: 560px;
+        
     }
     .conte{
         width: 100%;
     }
     .conte img{
         display: flex;
-        width: 100%; /* ширина картинки */
+        width: 96%; /* ширина картинки */
         height: auto
     }
 
