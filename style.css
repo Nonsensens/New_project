@@ -19,9 +19,7 @@ body{
     height: 100%;
     top:0;
     left: 0;
-    display: flex;
-    flex-direction: column;
-    display: flex;
+    
 }
 
 .main-screen__bg{
@@ -54,7 +52,7 @@ body{
 }
 .logo {
     position: relative;
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     
@@ -139,9 +137,16 @@ body{
 .lik:hover{
     color: #061e37;
 }
+.l1{
+   
+}
+.r1{
+    
+}
 .body {
     max-width: 1470px;
     padding-top: 155px;
+    position: relative;
 }
 @media (max-width:720px){
     .logo{
@@ -168,7 +173,7 @@ body{
     justify-content: space-between;
 }
 .l1 {
-    width: 608px;
+   
     max-width: 608px;
     
 }
