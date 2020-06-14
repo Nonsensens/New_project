@@ -263,10 +263,15 @@ line-height: 35px;
 }
 
 .conte{
+    display: flex;
     position: relative;
     cursor: pointer;
     padding-left: 80px;
     max-width: 560px;
+}
+.conte img{
+    width: 150%; /* ширина картинки */
+    height: auto
 }
 .conte h2{
     color: #061e37;
@@ -333,14 +338,19 @@ line-height: 35px;
         display: none;
     }
     .conte{
+        display: flex;
         position: relative;
         cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 50px;
+        padding-left: 0px;
         max-width: 560px;
+    }
+    .conte{
+        width: 100%;
+    }
+    .conte img{
+        display: flex;
+        width: 100%; /* ширина картинки */
+        height: auto
     }
 
 
